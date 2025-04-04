@@ -1,7 +1,7 @@
 <hr/>
 
-<div>
-  <center><h1>Adrian Ramirez</h1></center>
+<div align="center">
+  <h1>Adrian Ramirez</h1>
 </div>
 
 <div align="center">
