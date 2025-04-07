@@ -11,7 +11,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=adrianrmz11&show_icons=true&locale=en&layout=compact&theme=onedark" alt="ovi" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=adrianrmz11&show_icons=true&locale=es&layout=compact&theme=radical" alt="ovi" />
 </div>
 
 <br/>
@@ -25,6 +25,4 @@
         <img alt="ASPDOTNET" src="https://img.shields.io/badge/ASP .NET-7d32a8?logo=dotnet&logoColor=%2361DAFB">
         <img alt="Windows 11" src="https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white">
 </p>
-
-
 <hr/>
