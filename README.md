@@ -29,7 +29,7 @@
 <br/>
 
 <a href="#gh-dark-mode-only">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=adrianrmz11&theme=dracula&point=00000000&radius=12" alt="Contribuciones">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=adrianrmz11&theme=github-dark&point=00000000&radius=12" alt="Contribuciones">
 </a>
 
 <div align="center">
