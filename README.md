@@ -26,6 +26,12 @@
         <img alt="Windows 11" src="https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white">
 </p>
 
+<br/>
+
+<a href="#gh-dark-mode-only">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=adrianrmz11&theme=dracula&point=00000000&radius=12" alt="Contribuciones">
+</a>
+
 <div align="center">
   <h1></h1>
 </div>
