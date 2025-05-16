@@ -4,7 +4,7 @@
   <img src="name_logo.png">
 
   
-[![Spotify](https://novatorem.bgstatic.vercel.app/api/spotify)](https://open.spotify.com/artist/6hyCmqlpgEhkMKKr65sFgI)
+[![Spotify](https://novatorem.bgstatic.vercel.app/api/spotify)](https://open.spotify.com/artist/6piO5Ac23WJnRQifD42dfv)
 </div>
 <!-- <div align="center">
   <h4>Mi espacio de trabajo</h4>
