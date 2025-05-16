@@ -1,10 +1,12 @@
+<br/>
+<br/>
 <div align="center">
   <img src="name_logo.png">
 </div>
 <!-- <div align="center">
   <h4>Mi espacio de trabajo</h4>
 </div> -->
-
+<br/>
 <p align="center">
         <img alt="ExpressJS" src="https://img.shields.io/badge/Express.js-32a852?logo=express&logoColor=%2361DAFB">
         <img alt="Flask" src="https://img.shields.io/badge/Flask-0078D6?logo=flask&logoColor=%2361DAFB">
