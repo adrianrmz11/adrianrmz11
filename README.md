@@ -64,7 +64,7 @@ flowchart LR
 
 **Datos, herramientas y entorno**
 
-<img src="https://skillicons.dev/icons?i=mysql&perline=1" height="48" alt="MySQL">&nbsp;<img src="assets/sqlserver.svg" height="48" alt="SQL Server">&nbsp;<img src="https://skillicons.dev/icons?i=git,github,vscode,windows&perline=4" height="48" alt="Git, GitHub, VS Code, Windows">
+<img src="https://skillicons.dev/icons?i=mysql&perline=1" height="48" alt="MySQL">&nbsp;<img src="assets/sqlserver.svg" height="48" alt="SQL Server">&nbsp;<img src="https://skillicons.dev/icons?i=sqlite&perline=1" height="48" alt="SQLite">&nbsp;<img src="https://skillicons.dev/icons?i=git,github,vscode,windows&perline=4" height="48" alt="Git, GitHub, VS Code, Windows">
 
 </div>
 
@@ -75,7 +75,7 @@ flowchart LR
 |---|---|
 | **Backend** | Python (Flask, ReportLab), Node.js (Express), ASP.NET |
 | **Frontend** | HTML, CSS, JavaScript |
-| **Datos** | SQL Server, MySQL (XAMPP) |
+| **Datos** | SQL Server, MySQL (XAMPP), SQLite |
 | **IA / Visión** | DeepFace (verificación facial) |
 | **Otros** | Web scraping con Python, Java (CRUD), C++, bots de Discord |
 
