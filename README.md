@@ -56,7 +56,7 @@ flowchart LR
 
 **Lenguajes**
 
-![Python](https://skillicons.dev/icons?i=py,js,java,cs,cpp,html,css&perline=7)
+![Python](https://skillicons.dev/icons?i=py,js,java,cs,cpp,php,html,css&perline=8)
 
 **Backend y frameworks**
 
@@ -64,7 +64,7 @@ flowchart LR
 
 **Datos, herramientas y entorno**
 
-<img src="https://skillicons.dev/icons?i=mysql&perline=1" height="48" alt="MySQL">&nbsp;<img src="assets/sqlserver.svg" height="48" alt="SQL Server">&nbsp;<img src="https://skillicons.dev/icons?i=sqlite&perline=1" height="48" alt="SQLite">&nbsp;<img src="https://skillicons.dev/icons?i=git,github,vscode,windows&perline=4" height="48" alt="Git, GitHub, VS Code, Windows">
+<img src="https://skillicons.dev/icons?i=mysql&perline=1" height="48" alt="MySQL">&nbsp;<img src="assets/sqlserver.svg" height="48" alt="SQL Server">&nbsp;<img src="https://skillicons.dev/icons?i=sqlite&perline=1" height="48" alt="SQLite">&nbsp;<img src="assets/phpmyadmin.svg" height="48" alt="phpMyAdmin">&nbsp;<img src="https://skillicons.dev/icons?i=git,github,vscode,windows&perline=4" height="48" alt="Git, GitHub, VS Code, Windows">
 
 </div>
 
@@ -73,9 +73,9 @@ flowchart LR
 
 | Área | Tecnologías |
 |---|---|
-| **Backend** | Python (Flask, ReportLab), Node.js (Express), ASP.NET |
+| **Backend** | Python (Flask, ReportLab), Node.js (Express), ASP.NET, PHP |
 | **Frontend** | HTML, CSS, JavaScript |
-| **Datos** | SQL Server, MySQL (XAMPP), SQLite |
+| **Datos** | SQL Server, MySQL (phpMyAdmin / XAMPP), SQLite |
 | **IA / Visión** | DeepFace (verificación facial) |
 | **Otros** | Web scraping con Python, Java (CRUD), C++, bots de Discord |
 
