@@ -98,8 +98,9 @@ flowchart LR
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=adrianrmz11&show_icons=true&theme=github_dark&hide_border=true&locale=es" alt="Estadísticas de GitHub">
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adrianrmz11&layout=compact&theme=github_dark&hide_border=true&locale=es" alt="Lenguajes más usados">
+<img src="https://streak-stats.demolab.com/?user=adrianrmz11&theme=github-dark-blue&hide_border=true&locale=es" alt="Racha de contribuciones">
+
+<img src="https://ghchart.rshah.org/2ea44f/adrianrmz11" alt="Contribuciones en el último año" width="90%">
 
 </div>
 
