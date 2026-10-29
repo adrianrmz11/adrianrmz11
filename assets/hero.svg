@@ -3,6 +3,7 @@
 <radialGradient id="bg" cx="50%" cy="45%" r="75%"><stop offset="0" stop-color="#161d2b"/><stop offset="1" stop-color="#0b0f17"/></radialGradient>
 <radialGradient id="halo" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#5599d0" stop-opacity=".18"/><stop offset="1" stop-color="#5599d0" stop-opacity="0"/></radialGradient>
 <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#f6df6e"/><stop offset="1" stop-color="#5599d0"/></linearGradient>
 </defs>
 <style>
 .t{font:800 100px 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace;transform-box:fill-box;transform-origin:50% 100%}
@@ -70,7 +71,15 @@ circle[class^=p]{transform-box:fill-box}
 .p31{animation:p31 13.4s ease-in-out -1.8s infinite}@keyframes p31{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(20px,-30px);opacity:.85}}
 .p32{animation:p32 11.4s ease-in-out -8.9s infinite}@keyframes p32{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(-4px,-30px);opacity:.85}}
 .p33{animation:p33 7.1s ease-in-out -5.3s infinite}@keyframes p33{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(19px,-11px);opacity:.85}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+.in{opacity:0;animation:in .9s cubic-bezier(.2,.9,.3,1.2) both}
+@keyframes in{from{opacity:0;transform:translateY(-60px) scale(.8)}to{opacity:1;transform:none}}
+.fade{opacity:0;animation:fade 1s ease-out both}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.bar{transform-box:fill-box;transform-origin:0 50%;animation:load 1.8s cubic-bezier(.6,0,.2,1) .1s both,gone .6s ease-out 2.1s forwards}
+@keyframes load{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes gone{to{opacity:0}}
+.halo{opacity:0;animation:fade 1.6s ease-out .2s both,hl 8s ease-in-out 1.8s infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.in,.fade,.halo{opacity:1}.bar{opacity:0}}
 </style>
 <rect width="900" height="320" rx="18" fill="url(#bg)"/>
 <rect x="0.5" y="0.5" width="899" height="319" rx="18" fill="none" stroke="#30363d"/>
@@ -109,30 +118,31 @@ circle[class^=p]{transform-box:fill-box}
 <circle class="p31" cx="228" cy="167" r="1.6" fill="#5599d0"/>
 <circle class="p32" cx="117" cy="143" r="1" fill="#5599d0"/>
 <circle class="p33" cx="799" cy="56" r="1.6" fill="#f6df6e"/>
-<g transform="translate(60.0,252)"><ellipse class="sh s0" rx="24" ry="5" fill="#f6df6e"/></g>
-<g transform="translate(120.0,252)"><ellipse class="sh s1" rx="24" ry="5" fill="#f6df6e"/></g>
-<g transform="translate(180.0,252)"><ellipse class="sh s2" rx="24" ry="5" fill="#f6df6e"/></g>
-<g transform="translate(240.0,252)"><ellipse class="sh s3" rx="24" ry="5" fill="#f6df6e"/></g>
-<g transform="translate(300.0,252)"><ellipse class="sh s4" rx="24" ry="5" fill="#f6df6e"/></g>
-<g transform="translate(360.0,252)"><ellipse class="sh s5" rx="24" ry="5" fill="#f6df6e"/></g>
-<g transform="translate(480.0,252)"><ellipse class="sh s7" rx="24" ry="5" fill="#5599d0"/></g>
-<g transform="translate(540.0,252)"><ellipse class="sh s8" rx="24" ry="5" fill="#5599d0"/></g>
-<g transform="translate(600.0,252)"><ellipse class="sh s9" rx="24" ry="5" fill="#5599d0"/></g>
-<g transform="translate(660.0,252)"><ellipse class="sh s10" rx="24" ry="5" fill="#5599d0"/></g>
-<g transform="translate(720.0,252)"><ellipse class="sh s11" rx="24" ry="5" fill="#5599d0"/></g>
-<g transform="translate(780.0,252)"><ellipse class="sh s12" rx="24" ry="5" fill="#5599d0"/></g>
-<g transform="translate(840.0,252)"><ellipse class="sh s13" rx="24" ry="5" fill="#5599d0"/></g>
-<g transform="translate(60.0,190)"><text class="t l0" fill="#f6df6e" text-anchor="middle" filter="url(#g)">A</text></g>
-<g transform="translate(120.0,190)"><text class="t l1" fill="#f6df6e" text-anchor="middle" filter="url(#g)">d</text></g>
-<g transform="translate(180.0,190)"><text class="t l2" fill="#f6df6e" text-anchor="middle" filter="url(#g)">r</text></g>
-<g transform="translate(240.0,190)"><text class="t l3" fill="#f6df6e" text-anchor="middle" filter="url(#g)">i</text></g>
-<g transform="translate(300.0,190)"><text class="t l4" fill="#f6df6e" text-anchor="middle" filter="url(#g)">a</text></g>
-<g transform="translate(360.0,190)"><text class="t l5" fill="#f6df6e" text-anchor="middle" filter="url(#g)">n</text></g>
-<g transform="translate(480.0,190)"><text class="t l7" fill="#5599d0" text-anchor="middle" filter="url(#g)">R</text></g>
-<g transform="translate(540.0,190)"><text class="t l8" fill="#5599d0" text-anchor="middle" filter="url(#g)">a</text></g>
-<g transform="translate(600.0,190)"><text class="t l9" fill="#5599d0" text-anchor="middle" filter="url(#g)">m</text></g>
-<g transform="translate(660.0,190)"><text class="t l10" fill="#5599d0" text-anchor="middle" filter="url(#g)">i</text></g>
-<g transform="translate(720.0,190)"><text class="t l11" fill="#5599d0" text-anchor="middle" filter="url(#g)">r</text></g>
-<g transform="translate(780.0,190)"><text class="t l12" fill="#5599d0" text-anchor="middle" filter="url(#g)">e</text></g>
-<g transform="translate(840.0,190)"><text class="t l13" fill="#5599d0" text-anchor="middle" filter="url(#g)">z</text></g>
+<g transform="translate(60.0,252)"><g class="fade" style="animation-delay:1.4s"><ellipse class="sh s0" rx="24" ry="5" fill="#f6df6e"/></g></g>
+<g transform="translate(120.0,252)"><g class="fade" style="animation-delay:1.4s"><ellipse class="sh s1" rx="24" ry="5" fill="#f6df6e"/></g></g>
+<g transform="translate(180.0,252)"><g class="fade" style="animation-delay:1.4s"><ellipse class="sh s2" rx="24" ry="5" fill="#f6df6e"/></g></g>
+<g transform="translate(240.0,252)"><g class="fade" style="animation-delay:1.4s"><ellipse class="sh s3" rx="24" ry="5" fill="#f6df6e"/></g></g>
+<g transform="translate(300.0,252)"><g class="fade" style="animation-delay:1.4s"><ellipse class="sh s4" rx="24" ry="5" fill="#f6df6e"/></g></g>
+<g transform="translate(360.0,252)"><g class="fade" style="animation-delay:1.4s"><ellipse class="sh s5" rx="24" ry="5" fill="#f6df6e"/></g></g>
+<g transform="translate(480.0,252)"><g class="fade" style="animation-delay:1.4s"><ellipse class="sh s7" rx="24" ry="5" fill="#5599d0"/></g></g>
+<g transform="translate(540.0,252)"><g class="fade" style="animation-delay:1.4s"><ellipse class="sh s8" rx="24" ry="5" fill="#5599d0"/></g></g>
+<g transform="translate(600.0,252)"><g class="fade" style="animation-delay:1.4s"><ellipse class="sh s9" rx="24" ry="5" fill="#5599d0"/></g></g>
+<g transform="translate(660.0,252)"><g class="fade" style="animation-delay:1.4s"><ellipse class="sh s10" rx="24" ry="5" fill="#5599d0"/></g></g>
+<g transform="translate(720.0,252)"><g class="fade" style="animation-delay:1.4s"><ellipse class="sh s11" rx="24" ry="5" fill="#5599d0"/></g></g>
+<g transform="translate(780.0,252)"><g class="fade" style="animation-delay:1.4s"><ellipse class="sh s12" rx="24" ry="5" fill="#5599d0"/></g></g>
+<g transform="translate(840.0,252)"><g class="fade" style="animation-delay:1.4s"><ellipse class="sh s13" rx="24" ry="5" fill="#5599d0"/></g></g>
+<g transform="translate(60.0,190)"><g class="in" style="animation-delay:0.35s"><text class="t l0" fill="#f6df6e" text-anchor="middle" filter="url(#g)">A</text></g></g>
+<g transform="translate(120.0,190)"><g class="in" style="animation-delay:0.46s"><text class="t l1" fill="#f6df6e" text-anchor="middle" filter="url(#g)">d</text></g></g>
+<g transform="translate(180.0,190)"><g class="in" style="animation-delay:0.57s"><text class="t l2" fill="#f6df6e" text-anchor="middle" filter="url(#g)">r</text></g></g>
+<g transform="translate(240.0,190)"><g class="in" style="animation-delay:0.68s"><text class="t l3" fill="#f6df6e" text-anchor="middle" filter="url(#g)">i</text></g></g>
+<g transform="translate(300.0,190)"><g class="in" style="animation-delay:0.79s"><text class="t l4" fill="#f6df6e" text-anchor="middle" filter="url(#g)">a</text></g></g>
+<g transform="translate(360.0,190)"><g class="in" style="animation-delay:0.90s"><text class="t l5" fill="#f6df6e" text-anchor="middle" filter="url(#g)">n</text></g></g>
+<g transform="translate(480.0,190)"><g class="in" style="animation-delay:1.01s"><text class="t l7" fill="#5599d0" text-anchor="middle" filter="url(#g)">R</text></g></g>
+<g transform="translate(540.0,190)"><g class="in" style="animation-delay:1.12s"><text class="t l8" fill="#5599d0" text-anchor="middle" filter="url(#g)">a</text></g></g>
+<g transform="translate(600.0,190)"><g class="in" style="animation-delay:1.23s"><text class="t l9" fill="#5599d0" text-anchor="middle" filter="url(#g)">m</text></g></g>
+<g transform="translate(660.0,190)"><g class="in" style="animation-delay:1.34s"><text class="t l10" fill="#5599d0" text-anchor="middle" filter="url(#g)">i</text></g></g>
+<g transform="translate(720.0,190)"><g class="in" style="animation-delay:1.45s"><text class="t l11" fill="#5599d0" text-anchor="middle" filter="url(#g)">r</text></g></g>
+<g transform="translate(780.0,190)"><g class="in" style="animation-delay:1.56s"><text class="t l12" fill="#5599d0" text-anchor="middle" filter="url(#g)">e</text></g></g>
+<g transform="translate(840.0,190)"><g class="in" style="animation-delay:1.67s"><text class="t l13" fill="#5599d0" text-anchor="middle" filter="url(#g)">z</text></g></g>
+<rect class="bar" x="30" y="304" width="840" height="3" rx="1.5" fill="url(#bar)"/>
 </svg>
