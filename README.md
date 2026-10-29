@@ -98,7 +98,7 @@ flowchart LR
 
 <div align="center">
 
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=adrianrmz11&layout=compact&theme=github_dark&hide_border=true&langs_count=8&locale=es&title_color=2ea44f" alt="Lenguajes más usados">
+<img src="https://raw.githubusercontent.com/adrianrmz11/adrianrmz11/output/top-langs.svg" alt="Lenguajes más usados">
 <img src="https://streak-stats.demolab.com/?user=adrianrmz11&theme=github-dark-blue&hide_border=true&locale=es" alt="Racha de contribuciones">
 
 <img src="https://raw.githubusercontent.com/adrianrmz11/adrianrmz11/output/github-contribution-grid-snake-dark.svg" alt="Contribuciones en el último año" width="100%">
