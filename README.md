@@ -64,9 +64,7 @@ flowchart LR
 
 **Datos, herramientas y entorno**
 
-![Tools](https://skillicons.dev/icons?i=mysql,git,github,vscode,windows&perline=5)
-
-![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+<img src="https://skillicons.dev/icons?i=mysql&perline=1" height="48" alt="MySQL">&nbsp;<img src="assets/sqlserver.svg" height="48" alt="SQL Server">&nbsp;<img src="https://skillicons.dev/icons?i=git,github,vscode,windows&perline=4" height="48" alt="Git, GitHub, VS Code, Windows">
 
 </div>
 
