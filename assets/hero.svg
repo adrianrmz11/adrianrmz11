@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" role="img" aria-label="Adrian Ramirez">
+<defs>
+<radialGradient id="bg" cx="50%" cy="45%" r="75%"><stop offset="0" stop-color="#161d2b"/><stop offset="1" stop-color="#0b0f17"/></radialGradient>
+<radialGradient id="halo" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#5599d0" stop-opacity=".18"/><stop offset="1" stop-color="#5599d0" stop-opacity="0"/></radialGradient>
+<filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+.t{font:800 100px 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace;transform-box:fill-box;transform-origin:50% 100%}
+.sh{transform-box:fill-box;transform-origin:50% 50%}
+.halo{animation:hl 8s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 50%}
+@keyframes hl{0%,100%{transform:scale(.9);opacity:.6}50%{transform:scale(1.1);opacity:1}}
+circle[class^=p]{transform-box:fill-box}
+.l0{animation:f0 4.18s ease-in-out -0.63s infinite}@keyframes f0{0%,100%{transform:translateY(5.0px) rotate(-1.7deg)}50%{transform:translateY(-16.5px) rotate(1.7deg)}}
+.s0{animation:s0 4.18s ease-in-out -0.63s infinite}@keyframes s0{0%,100%{transform:scale(1.05);opacity:.5}50%{transform:scale(.6);opacity:.22}}
+.l1{animation:f1 4.69s ease-in-out -1.71s infinite}@keyframes f1{0%,100%{transform:translateY(3.2px) rotate(-3.0deg)}50%{transform:translateY(-10.6px) rotate(3.0deg)}}
+.s1{animation:s1 4.69s ease-in-out -1.71s infinite}@keyframes s1{0%,100%{transform:scale(1.05);opacity:.5}50%{transform:scale(.6);opacity:.22}}
+.l2{animation:f2 3.49s ease-in-out -1.51s infinite}@keyframes f2{0%,100%{transform:translateY(3.2px) rotate(-1.8deg)}50%{transform:translateY(-10.7px) rotate(1.8deg)}}
+.s2{animation:s2 3.49s ease-in-out -1.51s infinite}@keyframes s2{0%,100%{transform:scale(1.05);opacity:.5}50%{transform:scale(.6);opacity:.22}}
+.l3{animation:f3 4.42s ease-in-out -3.65s infinite}@keyframes f3{0%,100%{transform:translateY(3.4px) rotate(-2.2deg)}50%{transform:translateY(-11.2px) rotate(2.2deg)}}
+.s3{animation:s3 4.42s ease-in-out -3.65s infinite}@keyframes s3{0%,100%{transform:scale(1.05);opacity:.5}50%{transform:scale(.6);opacity:.22}}
+.l4{animation:f4 4.91s ease-in-out -4.65s infinite}@keyframes f4{0%,100%{transform:translateY(4.7px) rotate(-2.7deg)}50%{transform:translateY(-15.8px) rotate(2.7deg)}}
+.s4{animation:s4 4.91s ease-in-out -4.65s infinite}@keyframes s4{0%,100%{transform:scale(1.05);opacity:.5}50%{transform:scale(.6);opacity:.22}}
+.l5{animation:f5 5.74s ease-in-out -0.27s infinite}@keyframes f5{0%,100%{transform:translateY(5.6px) rotate(-2.4deg)}50%{transform:translateY(-18.6px) rotate(2.4deg)}}
+.s5{animation:s5 5.74s ease-in-out -0.27s infinite}@keyframes s5{0%,100%{transform:scale(1.05);opacity:.5}50%{transform:scale(.6);opacity:.22}}
+.l7{animation:f7 3.75s ease-in-out -0.44s infinite}@keyframes f7{0%,100%{transform:translateY(3.9px) rotate(-3.9deg)}50%{transform:translateY(-13.1px) rotate(3.9deg)}}
+.s7{animation:s7 3.75s ease-in-out -0.44s infinite}@keyframes s7{0%,100%{transform:scale(1.05);opacity:.5}50%{transform:scale(.6);opacity:.22}}
+.l8{animation:f8 3.83s ease-in-out -2.23s infinite}@keyframes f8{0%,100%{transform:translateY(4.9px) rotate(-2.6deg)}50%{transform:translateY(-16.4px) rotate(2.6deg)}}
+.s8{animation:s8 3.83s ease-in-out -2.23s infinite}@keyframes s8{0%,100%{transform:scale(1.05);opacity:.5}50%{transform:scale(.6);opacity:.22}}
+.l9{animation:f9 4.71s ease-in-out -0.30s infinite}@keyframes f9{0%,100%{transform:translateY(3.2px) rotate(-2.1deg)}50%{transform:translateY(-10.6px) rotate(2.1deg)}}
+.s9{animation:s9 4.71s ease-in-out -0.30s infinite}@keyframes s9{0%,100%{transform:scale(1.05);opacity:.5}50%{transform:scale(.6);opacity:.22}}
+.l10{animation:f10 5.03s ease-in-out -2.15s infinite}@keyframes f10{0%,100%{transform:translateY(3.9px) rotate(-3.3deg)}50%{transform:translateY(-13.1px) rotate(3.3deg)}}
+.s10{animation:s10 5.03s ease-in-out -2.15s infinite}@keyframes s10{0%,100%{transform:scale(1.05);opacity:.5}50%{transform:scale(.6);opacity:.22}}
+.l11{animation:f11 4.49s ease-in-out -1.35s infinite}@keyframes f11{0%,100%{transform:translateY(5.4px) rotate(-3.6deg)}50%{transform:translateY(-17.9px) rotate(3.6deg)}}
+.s11{animation:s11 4.49s ease-in-out -1.35s infinite}@keyframes s11{0%,100%{transform:scale(1.05);opacity:.5}50%{transform:scale(.6);opacity:.22}}
+.l12{animation:f12 3.99s ease-in-out -2.29s infinite}@keyframes f12{0%,100%{transform:translateY(4.6px) rotate(-4.1deg)}50%{transform:translateY(-15.3px) rotate(4.1deg)}}
+.s12{animation:s12 3.99s ease-in-out -2.29s infinite}@keyframes s12{0%,100%{transform:scale(1.05);opacity:.5}50%{transform:scale(.6);opacity:.22}}
+.l13{animation:f13 5.15s ease-in-out -1.48s infinite}@keyframes f13{0%,100%{transform:translateY(5.9px) rotate(-1.9deg)}50%{transform:translateY(-19.8px) rotate(1.9deg)}}
+.s13{animation:s13 5.15s ease-in-out -1.48s infinite}@keyframes s13{0%,100%{transform:scale(1.05);opacity:.5}50%{transform:scale(.6);opacity:.22}}
+.p0{animation:p0 13.5s ease-in-out -10.3s infinite}@keyframes p0{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(-4px,-11px);opacity:.85}}
+.p1{animation:p1 8.7s ease-in-out -0.6s infinite}@keyframes p1{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(-7px,-23px);opacity:.85}}
+.p2{animation:p2 6.5s ease-in-out -5.3s infinite}@keyframes p2{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(10px,-19px);opacity:.85}}
+.p3{animation:p3 6.2s ease-in-out -3.1s infinite}@keyframes p3{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(-2px,-31px);opacity:.85}}
+.p4{animation:p4 9.2s ease-in-out -4.1s infinite}@keyframes p4{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(21px,-23px);opacity:.85}}
+.p5{animation:p5 12.9s ease-in-out -8.8s infinite}@keyframes p5{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(-11px,-25px);opacity:.85}}
+.p6{animation:p6 7.4s ease-in-out -6.2s infinite}@keyframes p6{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(-13px,-29px);opacity:.85}}
+.p7{animation:p7 9.4s ease-in-out -6.5s infinite}@keyframes p7{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(-7px,-21px);opacity:.85}}
+.p8{animation:p8 9.7s ease-in-out -7.7s infinite}@keyframes p8{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(19px,-11px);opacity:.85}}
+.p9{animation:p9 9.9s ease-in-out -4.3s infinite}@keyframes p9{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(-5px,-30px);opacity:.85}}
+.p10{animation:p10 6.0s ease-in-out -3.7s infinite}@keyframes p10{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(-17px,-32px);opacity:.85}}
+.p11{animation:p11 7.2s ease-in-out -3.4s infinite}@keyframes p11{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(-12px,-26px);opacity:.85}}
+.p12{animation:p12 9.8s ease-in-out -3.4s infinite}@keyframes p12{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(-9px,-31px);opacity:.85}}
+.p13{animation:p13 10.1s ease-in-out -1.5s infinite}@keyframes p13{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(-15px,-11px);opacity:.85}}
+.p14{animation:p14 8.4s ease-in-out -4.3s infinite}@keyframes p14{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(7px,-33px);opacity:.85}}
+.p15{animation:p15 10.3s ease-in-out -6.3s infinite}@keyframes p15{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(14px,-27px);opacity:.85}}
+.p16{animation:p16 12.4s ease-in-out -2.5s infinite}@keyframes p16{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(16px,-17px);opacity:.85}}
+.p17{animation:p17 12.3s ease-in-out -11.8s infinite}@keyframes p17{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(-1px,-30px);opacity:.85}}
+.p18{animation:p18 13.6s ease-in-out -6.4s infinite}@keyframes p18{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(-7px,-29px);opacity:.85}}
+.p19{animation:p19 12.7s ease-in-out -1.1s infinite}@keyframes p19{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(-1px,-19px);opacity:.85}}
+.p20{animation:p20 9.8s ease-in-out -0.9s infinite}@keyframes p20{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(-16px,-15px);opacity:.85}}
+.p21{animation:p21 9.2s ease-in-out -9.1s infinite}@keyframes p21{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(22px,-17px);opacity:.85}}
+.p22{animation:p22 12.5s ease-in-out -8.2s infinite}@keyframes p22{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(-18px,-14px);opacity:.85}}
+.p23{animation:p23 6.2s ease-in-out -3.2s infinite}@keyframes p23{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(15px,-17px);opacity:.85}}
+.p24{animation:p24 12.6s ease-in-out -6.3s infinite}@keyframes p24{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(-14px,-29px);opacity:.85}}
+.p25{animation:p25 9.4s ease-in-out -8.4s infinite}@keyframes p25{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(-18px,-12px);opacity:.85}}
+.p26{animation:p26 9.4s ease-in-out -1.4s infinite}@keyframes p26{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(21px,-22px);opacity:.85}}
+.p27{animation:p27 10.9s ease-in-out -5.1s infinite}@keyframes p27{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(14px,-31px);opacity:.85}}
+.p28{animation:p28 11.5s ease-in-out -10.1s infinite}@keyframes p28{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(2px,-23px);opacity:.85}}
+.p29{animation:p29 12.2s ease-in-out -5.4s infinite}@keyframes p29{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(0px,-21px);opacity:.85}}
+.p30{animation:p30 7.6s ease-in-out -3.9s infinite}@keyframes p30{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(-11px,-22px);opacity:.85}}
+.p31{animation:p31 13.4s ease-in-out -1.8s infinite}@keyframes p31{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(20px,-30px);opacity:.85}}
+.p32{animation:p32 11.4s ease-in-out -8.9s infinite}@keyframes p32{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(-4px,-30px);opacity:.85}}
+.p33{animation:p33 7.1s ease-in-out -5.3s infinite}@keyframes p33{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(19px,-11px);opacity:.85}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect width="900" height="320" rx="18" fill="url(#bg)"/>
+<rect x="0.5" y="0.5" width="899" height="319" rx="18" fill="none" stroke="#30363d"/>
+<ellipse class="halo" cx="450.0" cy="160" rx="360" ry="110" fill="url(#halo)"/>
+<circle class="p0" cx="378" cy="237" r="1.2" fill="#f6df6e"/>
+<circle class="p1" cx="514" cy="273" r="1.6" fill="#5599d0"/>
+<circle class="p2" cx="92" cy="91" r="1" fill="#ffffff"/>
+<circle class="p3" cx="260" cy="126" r="1.6" fill="#f6df6e"/>
+<circle class="p4" cx="202" cy="96" r="1.2" fill="#f6df6e"/>
+<circle class="p5" cx="494" cy="275" r="2" fill="#5599d0"/>
+<circle class="p6" cx="345" cy="79" r="1" fill="#5599d0"/>
+<circle class="p7" cx="170" cy="95" r="1.2" fill="#f6df6e"/>
+<circle class="p8" cx="464" cy="195" r="1" fill="#ffffff"/>
+<circle class="p9" cx="355" cy="130" r="1" fill="#f6df6e"/>
+<circle class="p10" cx="107" cy="190" r="1" fill="#5599d0"/>
+<circle class="p11" cx="72" cy="72" r="2" fill="#5599d0"/>
+<circle class="p12" cx="112" cy="156" r="2" fill="#ffffff"/>
+<circle class="p13" cx="243" cy="259" r="1.2" fill="#5599d0"/>
+<circle class="p14" cx="488" cy="18" r="2.6" fill="#5599d0"/>
+<circle class="p15" cx="809" cy="117" r="1.2" fill="#f6df6e"/>
+<circle class="p16" cx="704" cy="237" r="1.2" fill="#f6df6e"/>
+<circle class="p17" cx="444" cy="229" r="1" fill="#ffffff"/>
+<circle class="p18" cx="404" cy="291" r="1.6" fill="#f6df6e"/>
+<circle class="p19" cx="307" cy="155" r="2.6" fill="#ffffff"/>
+<circle class="p20" cx="591" cy="283" r="1.2" fill="#5599d0"/>
+<circle class="p21" cx="843" cy="227" r="2" fill="#f6df6e"/>
+<circle class="p22" cx="34" cy="187" r="2" fill="#5599d0"/>
+<circle class="p23" cx="318" cy="175" r="1.2" fill="#f6df6e"/>
+<circle class="p24" cx="832" cy="140" r="1.2" fill="#5599d0"/>
+<circle class="p25" cx="682" cy="108" r="2.6" fill="#5599d0"/>
+<circle class="p26" cx="593" cy="255" r="2.6" fill="#ffffff"/>
+<circle class="p27" cx="459" cy="272" r="1.2" fill="#f6df6e"/>
+<circle class="p28" cx="648" cy="177" r="1.6" fill="#f6df6e"/>
+<circle class="p29" cx="60" cy="67" r="1" fill="#f6df6e"/>
+<circle class="p30" cx="549" cy="162" r="2.6" fill="#5599d0"/>
+<circle class="p31" cx="228" cy="167" r="1.6" fill="#5599d0"/>
+<circle class="p32" cx="117" cy="143" r="1" fill="#5599d0"/>
+<circle class="p33" cx="799" cy="56" r="1.6" fill="#f6df6e"/>
+<g transform="translate(60.0,252)"><ellipse class="sh s0" rx="24" ry="5" fill="#f6df6e"/></g>
+<g transform="translate(120.0,252)"><ellipse class="sh s1" rx="24" ry="5" fill="#f6df6e"/></g>
+<g transform="translate(180.0,252)"><ellipse class="sh s2" rx="24" ry="5" fill="#f6df6e"/></g>
+<g transform="translate(240.0,252)"><ellipse class="sh s3" rx="24" ry="5" fill="#f6df6e"/></g>
+<g transform="translate(300.0,252)"><ellipse class="sh s4" rx="24" ry="5" fill="#f6df6e"/></g>
+<g transform="translate(360.0,252)"><ellipse class="sh s5" rx="24" ry="5" fill="#f6df6e"/></g>
+<g transform="translate(480.0,252)"><ellipse class="sh s7" rx="24" ry="5" fill="#5599d0"/></g>
+<g transform="translate(540.0,252)"><ellipse class="sh s8" rx="24" ry="5" fill="#5599d0"/></g>
+<g transform="translate(600.0,252)"><ellipse class="sh s9" rx="24" ry="5" fill="#5599d0"/></g>
+<g transform="translate(660.0,252)"><ellipse class="sh s10" rx="24" ry="5" fill="#5599d0"/></g>
+<g transform="translate(720.0,252)"><ellipse class="sh s11" rx="24" ry="5" fill="#5599d0"/></g>
+<g transform="translate(780.0,252)"><ellipse class="sh s12" rx="24" ry="5" fill="#5599d0"/></g>
+<g transform="translate(840.0,252)"><ellipse class="sh s13" rx="24" ry="5" fill="#5599d0"/></g>
+<g transform="translate(60.0,190)"><text class="t l0" fill="#f6df6e" text-anchor="middle" filter="url(#g)">A</text></g>
+<g transform="translate(120.0,190)"><text class="t l1" fill="#f6df6e" text-anchor="middle" filter="url(#g)">d</text></g>
+<g transform="translate(180.0,190)"><text class="t l2" fill="#f6df6e" text-anchor="middle" filter="url(#g)">r</text></g>
+<g transform="translate(240.0,190)"><text class="t l3" fill="#f6df6e" text-anchor="middle" filter="url(#g)">i</text></g>
+<g transform="translate(300.0,190)"><text class="t l4" fill="#f6df6e" text-anchor="middle" filter="url(#g)">a</text></g>
+<g transform="translate(360.0,190)"><text class="t l5" fill="#f6df6e" text-anchor="middle" filter="url(#g)">n</text></g>
+<g transform="translate(480.0,190)"><text class="t l7" fill="#5599d0" text-anchor="middle" filter="url(#g)">R</text></g>
+<g transform="translate(540.0,190)"><text class="t l8" fill="#5599d0" text-anchor="middle" filter="url(#g)">a</text></g>
+<g transform="translate(600.0,190)"><text class="t l9" fill="#5599d0" text-anchor="middle" filter="url(#g)">m</text></g>
+<g transform="translate(660.0,190)"><text class="t l10" fill="#5599d0" text-anchor="middle" filter="url(#g)">i</text></g>
+<g transform="translate(720.0,190)"><text class="t l11" fill="#5599d0" text-anchor="middle" filter="url(#g)">r</text></g>
+<g transform="translate(780.0,190)"><text class="t l12" fill="#5599d0" text-anchor="middle" filter="url(#g)">e</text></g>
+<g transform="translate(840.0,190)"><text class="t l13" fill="#5599d0" text-anchor="middle" filter="url(#g)">z</text></g>
+</svg>

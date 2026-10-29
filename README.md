@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=140&section=header&animation=twinkling" width="100%" alt="">
-
-<img src="name_logo.png" alt="Adrian" width="420">
+<img src="assets/hero.svg" alt="Adrian Ramirez" width="100%">
 
 <a href="https://github.com/adrianrmz11">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=2EA44F&center=true&vCenter=true&width=620&lines=Desarrollador+Full+Stack+%F0%9F%87%B5%F0%9F%87%BE;Python+%C2%B7+Node.js+%C2%B7+ASP.NET;Backend+%2B+Frontend+%2B+Bases+de+datos;Verificaci%C3%B3n+facial+con+DeepFace" alt="Desarrollador Full Stack">
@@ -105,4 +103,4 @@ flowchart LR
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=100&section=footer" width="100%" alt="">
+<img src="assets/footer.svg" width="100%" alt="">

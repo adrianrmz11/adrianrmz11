@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="60" viewBox="0 0 900 60" role="img" aria-label="">
+<defs><linearGradient id="lg" x1="0" x2="1"><stop offset="0" stop-color="#f6df6e" stop-opacity="0"/><stop offset=".5" stop-color="#5599d0"/><stop offset="1" stop-color="#f6df6e" stop-opacity="0"/></linearGradient></defs>
+<style>
+.base{fill:none;stroke:#30363d;stroke-width:2;stroke-linejoin:round}
+.pulse{fill:none;stroke:url(#lg);stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:140 1100;animation:run 4.5s linear infinite}
+@keyframes run{from{stroke-dashoffset:140}to{stroke-dashoffset:-1000}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<polyline class="base" points="0,30 250,30 290,30 305,12 322,48 340,6 358,30 460,30 900,30"/>
+<polyline class="pulse" points="0,30 250,30 290,30 305,12 322,48 340,6 358,30 460,30 900,30"/>
+</svg>
