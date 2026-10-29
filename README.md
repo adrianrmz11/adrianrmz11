@@ -66,6 +66,10 @@ flowchart LR
 
 <img src="https://skillicons.dev/icons?i=mysql&perline=1" height="48" alt="MySQL">&nbsp;<img src="assets/sqlserver.svg" height="48" alt="SQL Server">&nbsp;<img src="https://skillicons.dev/icons?i=sqlite&perline=1" height="48" alt="SQLite">&nbsp;<img src="assets/phpmyadmin.svg" height="48" alt="phpMyAdmin">&nbsp;<img src="https://skillicons.dev/icons?i=git,github,vscode,windows&perline=4" height="48" alt="Git, GitHub, VS Code, Windows">
 
+**Pruebas y ciberseguridad**
+
+<img src="https://skillicons.dev/icons?i=postman&perline=1" height="48" alt="Postman">&nbsp;<img src="assets/swagger.svg" height="48" alt="Swagger">&nbsp;<img src="https://skillicons.dev/icons?i=kali&perline=1" height="48" alt="Kali Linux">
+
 </div>
 
 <details>
@@ -76,6 +80,8 @@ flowchart LR
 | **Backend** | Python (Flask, ReportLab), Node.js (Express), ASP.NET, PHP |
 | **Frontend** | HTML, CSS, JavaScript |
 | **Datos** | SQL Server, MySQL (phpMyAdmin / XAMPP), SQLite |
+| **Pruebas** | Postman, Swagger (pruebas y documentación de APIs) |
+| **Ciberseguridad** | Kali Linux en entornos controlados de pruebas |
 | **IA / Visión** | DeepFace (verificación facial) |
 | **Otros** | Web scraping con Python, Java (CRUD), C++, bots de Discord |
 
