@@ -91,7 +91,7 @@ flowchart LR
 <img src="https://raw.githubusercontent.com/adrianrmz11/adrianrmz11/output/top-langs.svg" alt="Lenguajes más usados">
 <img src="https://streak-stats.demolab.com/?user=adrianrmz11&theme=github-dark-blue&hide_border=true&locale=es" alt="Racha de contribuciones">
 
-<img src="https://raw.githubusercontent.com/adrianrmz11/adrianrmz11/output/github-contribution-grid-snake-dark.svg" alt="Contribuciones en el último año" width="100%">
+<img src="https://raw.githubusercontent.com/adrianrmz11/adrianrmz11/output/pacman-contribution-graph-dark.svg" alt="Contribuciones en el último año" width="100%">
 
 </div>
 
