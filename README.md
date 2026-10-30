@@ -54,21 +54,7 @@ flowchart LR
 
 <div align="center">
 
-**Lenguajes**
-
-![Python](https://skillicons.dev/icons?i=py,js,java,cs,cpp,php,html,css&perline=8)
-
-**Backend y frameworks**
-
-![Backend](https://skillicons.dev/icons?i=flask,nodejs,express,dotnet&perline=4)
-
-**Datos, herramientas y entorno**
-
-<img src="https://skillicons.dev/icons?i=mysql&perline=1" height="48" alt="MySQL">&nbsp;<img src="assets/sqlserver.svg" height="48" alt="SQL Server">&nbsp;<img src="https://skillicons.dev/icons?i=sqlite&perline=1" height="48" alt="SQLite">&nbsp;<img src="assets/phpmyadmin.svg" height="48" alt="phpMyAdmin">&nbsp;<img src="https://skillicons.dev/icons?i=git,github,vscode,windows&perline=4" height="48" alt="Git, GitHub, VS Code, Windows">
-
-**Pruebas y ciberseguridad**
-
-<img src="https://skillicons.dev/icons?i=postman&perline=1" height="48" alt="Postman">&nbsp;<img src="assets/swagger.svg" height="48" alt="Swagger">&nbsp;<img src="https://skillicons.dev/icons?i=kali&perline=1" height="48" alt="Kali Linux">
+<img src="assets/stack.svg" alt="Stack tecnológico: Python, JavaScript, Java, C#, C++, PHP, HTML, CSS, Flask, Node.js, Express, .NET, MySQL, SQL Server, SQLite, phpMyAdmin, Git, GitHub, VS Code, Windows, Postman, Swagger, Kali Linux" width="100%">
 
 </div>
 
